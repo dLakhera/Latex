@@ -1,9 +1,10 @@
 %\documentclass{article}
 \documentclass[10.5pt]{article}
-\usepackage[a4paper,bottom = .75 in,left = 0.75in,right = 0.75in,top = 0in]{geometry}
+\usepackage[a4paper,bottom = .35in,left = 0.60in,right = 0.55in,top = 0in]{geometry}
 \usepackage{verbatim}
 \usepackage{lipsum}
 \usepackage{graphicx}
+\usepackage[T1]{fontenc}
 \graphicspath{ {images/} }
 \usepackage{amsmath}
 \usepackage{mathtools}
@@ -36,207 +37,162 @@
 %------------------------------------------------
 
 \begin{document}
-	
-	\vspace*{5cm}  
-% 	\vspace*{-8pt}\textbf{}
-    \hspace{-17pt}
-    \textbf{Auxiliary Degree:} Pursuing a \textbf{Minor} in \textbf{Industrial Engineering and Operations Research(IEOR)}
-    \vspace{-15pt}
+    
+	\vspace*{5cm}
 
+    \vspace{-25pt}
+
+	\section*{\color{blue}Professional Experience\xfilll[0pt]{0.5pt}}
+	\vspace{-9pt}	
+    
+    \vspace{0pt}
+  \textbf{\large Citi Corp Financial Services, Summer Technical Intern} \hfill{\sl\small(May'21 - July'21)}\\
+  \textit{Received \textbf{Pre-Placement Offer} for exemplary performance throughout the internship}
+  \begin{itemize}[itemsep=-1.5mm, leftmargin=*]
+  \vspace{-5pt}
+      \item Implemented \textbf{document versioning system}, using \textbf{MariaDB \&} \textbf{AWS S3} for compliance and auditing checks 
+      
+      \item Developed a \textbf{bash program} automating database record extraction, compression and archiving saving \textbf{20+} man-hrs 
+    %   extracts database records, compresses them, puts them in dynamically defined directory structure and uploads it to AWS S3 Glacier storage locations for archiving purposes.
+     
+      \item Implemented \textbf{Undo} feature for Citi Authoring Platform using \textbf{Wordpress Core} and classes in \textbf{React-Redux}
+     
+      \item Created Employee Management System (\textbf{EMS}), using \textbf{AWS  Lambda}, \textbf{DynamoDB} with projected revenue \textbf{gains}
+    %   , automating compensation calculations, leave logging and performance reviews with projected \textbf{gains} in revenue
+  \end{itemize}
+\vspace{-21pt}
 \section*{\color{blue}Self Projects Undertaken\xfilll[0pt]{0.5pt}}
 	\vspace{-9pt}
-    \textbf{Automatic Text Summarisation, Natural Language Processing} \hfill{\sl\small(July'20)}\\
-    \textit{Applied extraction approach to summarise text files from any language using \textbf{TensorFlow} data-structures}\\
+    \textbf{\large Automatic Text Summarisation, Natural Language Processing} \hfill{\sl\small(July'20)}\\
+    \textit{An extraction approach to summarise text files from any language using \textbf{TensorFlow} data-structures}\\
     \begin{itemize}[itemsep = -1.5 mm, leftmargin=*]
     \vspace{-17pt}
-        \item Constructed an intermediate representation of the input text by computing \textbf{TF} matrices for each sentence.
+        \item Implemented \textbf{TF matrices} for each sentence as intermediate representation of the input text for efficient modification
         
-        \item Scored the sentence based on probability of being in the summary and then picked the \textbf{top k} sentences
+        \item Ranked the sentence based on \textbf{probabilistic analysis} of being in the summary and then sorted out \textbf{top k} sentences
         
-        \item Successfully combined \textbf{speech-to-text} and \textbf{automatic summarisation} to generate scripts of online meets 
+        \item Combined \textbf{speech-to-text} and \textbf{automatic summarisation} to generate transcript/minutes of online meets
     \end{itemize}
 
-	\vspace{-5pt}
+	\vspace{-3pt}
 	\hspace{-17pt}
-	\textbf{Break Out Game, Atari'76}\hfill{\sl \small (May'20)}\\
+	\textbf{\large Network Chat Client, Socket Programming}\hfill{\sl \small (May'21)}\\
+    \textit{A platform independent \textbf{Desktop Application} developed for \textbf{peer-to-peer} and \textbf{broadcast} communication}\\
+	\begin{itemize}[itemsep = -1.5mm, leftmargin=*]
+	\vspace{-17 pt}	
+        \item Developed in \textbf{Java} Jframe, using \textbf{UDP} protocol transfer layer, ideal for multiplayer online games, \textbf{video} streaming
+		\item Implemented \textbf{one-on-one} chat, broadcast channel and \textbf{server-admin} access layer feature for better user experience 
+		\item Incorporated features for \textbf{private} conversations, database for chat history and \textbf{10k+} users can join simultaneously
+	\end{itemize}
+	
+	\vspace{-3pt}
+	\hspace{-17pt}
+	\textbf{\large BreakOut Game, Atari'76}\hfill{\sl \small (May'20)}\\
     \textit{A \textbf{PC Game} developed for \textbf{UNIX} operating system }\\
 	\begin{itemize}[itemsep = -1.5 mm, leftmargin=*]
-	\vspace{-17 pt}	
+	\vspace{-19 pt}	
         \item Developed in \textbf{Lua}, it runs on \textbf{L\"{O}VE2D} gaming engine and implements intuitive \textbf{State Machine} game flow 
 		\item Implemented efficient \textbf{procedural level} generation algorithms and pixel manipulations for smooth game play
 	\end{itemize}
 	
-
-
-% \hspace{-17 pt}
-% \textbf{Fav-Gallery App}\hfill{\sl \small (2019)}\\
-%     {\textit{An \textbf{Android app} developed for indexing, organising and sorting of media files on your phone device.}}\\
-% 	\begin{itemize}[itemsep = -1.5 mm, leftmargin=*]
-% 	\vspace{-17.7 pt}	
-%         \item Developed in \textbf{Android Studio}, it achieves an intuitive and smooth Graphical User Interface \textbf{(GUI)}
-% 		\item Integrated \textbf{data scrapping} and \textbf{data file handling} techniques for indexing and efficient lookup of media files  
-% 	\end{itemize}
-% 	\vspace{-6pt}
-	
-% \textbf{Master-Mind 2.0 Game}\hfill{\sl \small (2019)}\\
-%     {\textit{A Random Number Generation based logic game developed for \textbf{Android} environment}}\\ 
-% \vspace{-19pt}
-%   	\begin{itemize}[itemsep = -1.5 mm, leftmargin=*]
-%      \item Data handling tool of \textbf{SQLite} is implemented to store high scores and statistics over a period of time
-%      \item Implementation of \textbf{Java} Random Number Class to obtain statistically normally distributed numbers
-     
-    % \end{itemize}
-    
-	\vspace{-17pt}
+	\vspace{-21pt}
 	\section*{\color{blue}Key Projects\xfilll[0pt]{0.5pt}}
 	\vspace{-9pt}	
-	
-% \textbf{Bluetooth Controlled Racing Bot 2018}\hfill{\sl \small (2018)}\\
-% 	{\textit{Institute Technical Council, IIT Bombay}}\\
-% \begin{itemize}[itemsep = -1.5 mm, leftmargin=*]
-% 	\vspace{-17.7 pt}	
-%         \item Aim was to build aa App controlled two wheeler bot, capable of showing at least 2 degrees of freedom
-% 	    \item Designed the remote controlled bot using \textbf{IC L293D}, \textbf{Bluetooth Module HC05} and an \textbf{At-Tiny} micro-controller to program the movements of bot and sync it with the app on mobile phone
-% \end{itemize}
 
-% \vspace*{-2pt}
-
-  \vspace{0pt}
-  \textbf{The Humanoid Project, Tinkerer's Laboratory, IIT Bombay} \hfill{\sl\small(Feb'20 - Present)}\\
-  
+  \textbf{\large The Humanoid Project, Tinkerer's Laboratory, IIT Bombay} \hfill{\sl\small(Feb'20 - Present)}\\
+  \vspace{12pt}
+  \hspace{-7pt}
+  \textit{Aimed at building a humanoid with \textbf{Artificial Intelligence} Systems and Controls for Medical Assistance}
   \begin{itemize}[itemsep=-1.5mm, leftmargin=*]
   \vspace{-18pt}
-      \item Aimed at building a humanoid with \textbf{Artificial Intelligence} Systems and Controls for Medical Assistance 
      
       \item Compiled extensive market research on \textbf{NLP} and data-sets such as Cornell Movie Dialogue Corpus for training   
      
       \item Built a bot responsive to voice commands- perform Google Search, \textbf{casual conversations} and log-in system
      
-      \item Used functional API of Tensorflow to tackle recurrent \textbf{neural networks} problem using the encoder-decoder model for \textbf{seq-to-seq prediction} based generative chatbot, training it on \textbf{30k+} dialogues for \textbf{5 epochs} 
+      \item Applied functional API of \textbf{TensorFlow}  to tackle recurrent \textbf{neural networks} problem using encoder-decoder model
       
-     
-     
+      \item Developed a \textbf{seq-to-seq prediction} based generative chat-bot, training it on \textbf{30k+} dialogues for \textbf{5 epochs} 
+      
   \end{itemize}
   
-  \vspace{-5 pt}
+  \vspace{-3pt}
   \hspace{-18 pt}
-  \textbf{Site Inspection Application, Powerapps} \hfill{\sl\small (June'20)}\\
-%   \textit{Developed an Application in rapid application development environment to adapt to changing business needs}
-\textit{Microsoft Business Application Development Platform}\\
-  \vspace{-17pt}
+  \textbf{\large Site Inspection Application, Powerapps} \hfill{\sl\small (June'20)}\\
+  \vspace{-6pt}
+  \hspace{-7pt}
+  \textit{A rapid application development environment designed to adapt to changing business needs}
+% \textit{Microsoft Business Application Development Platform}\\
   \begin{itemize}[itemsep = -1.5 mm, leftmargin=*]
-    \item An app that collects media files and text inputs and stores them in \textbf{OneDrive Cloud} for quick data collection
+    \item Developed an app that collects media files and text inputs and stores them in \textbf{One Drive Cloud} for data collection
     
-    \item Implements \textbf{user stories} for intuitive GUI and worked in \textbf{Agile-Scrum} methodology of week long sprints 
+    \item Implements \textbf{user stories} for intuitive GUI and worked in Atlassian \textbf{Agile-Scrum} methodology of week long sprints 
   \end{itemize}
-  
-  
-  
-%   \vspace{-1pt}
-%   \hspace{-18 pt}
-% \textbf{Home Automation System, Internet of Things}\hfill{\sl\small (2018)}\\
-% 	{\textit{Electronics and Robotics Club, IIT Bombay}}\\
-% 	\begin{itemize}[itemsep = -1.5 mm, leftmargin=*]
-% 	\vspace{-17.7 pt}	
-%         \item Designing and implementing a circuit logic to achieve access to home appliances over the internet
-%         \item Successfully integrated physical circuit with \textbf{Blynk app} to access electrical appliances at home
-%     \end{itemize}
-
-    \vspace{-17pt}
     
-\section*{\color{blue}Technical Skills\xfilll[0pt]{0.5pt}}
-	\vspace{-9pt}
-	\begin{itemize}[itemsep = -1.5mm, leftmargin=*]
-    \item Programming Languages: \textbf{C/C++}, \textbf{Java}, R, \textbf{Python}, PHP, JavaScript, mySQL, Arduino  and \LaTeX
-    \item Operating Systems and Softwares: \textbf{Linux, Windows},  Kali, AutoCAD, SolidWorks and PowerApps 
-	\end{itemize}
-	\vspace{-17pt}
-% \section*{\color{blue}Scholastic  Achievements\xfilll[0pt]{0.5pt}}
-% 	\vspace{-9pt}
-% 	\begin{itemize}[itemsep = -1.5mm, leftmargin=*]
-% 	    \item Secured \textbf{97.07} percentile in Joint Entrance Exam- Advanced'18 among over \textbf{0.23 million} candidates  \hfill{\sl \small (2018)}
-% 		%\item {\fontdimen2\font=0.6ex  \hfill{\sl \small (2018)}
-% 		\item Received a \textbf{Merit Certificate} for exemplary performance in \textbf{Class X} in \textbf{CBSE} Board \hfill{\sl\small (2016)} 
-% 	\end{itemize}
-% 	\vspace{-24pt}
-	%\vspace{-19pt}
-	%\section*{Technical Project}
-
+	\vspace{-21pt}
 
 \section*{\color{blue}Positions of Responsibility\xfilll[0pt]{0.5pt}}
 	\vspace{-9pt}
-	   %\end{itemize}
 	   
-	\textbf{Web Manager $|$ Abhyuday IIT Bombay}
-	\hfill{\sl \small (May'20 - Present) }\\
-\textit{A visionary social body channelizing youth through impactful social initiatives since \textbf{2014} with \textbf{600+} campaigns}
+	\textbf{\large Web Manager, Abhyuday IIT Bombay}
+	\hfill{\sl \small (May'20 - May'21) }\\
+	\vspace{12pt}
+	\hspace{-8pt}
+\textit{Led a \textbf{2-tier} team of \textbf{800+} people to execute \textbf{5} nationwide competitions, \textbf{50+} events/campaigns $|$ Reach: \textbf{5M+} }
 \vspace{-17 pt}
-\begin{itemize}[itemsep = -1.5mm, leftmargin=*]
-
-
-    \item Leading a \textbf{2-tier} team, responsible for organisation of \textbf{50+} events/campaigns and \textbf{5} nationwide competitions
+    \begin{itemize}[itemsep = -1.45mm, leftmargin=*]
     
-    \item Executed a \textbf{stigma eradication} campaign in collaboration with \textbf{UNICEF} India and reached out \textbf{1M} people
-    
-    
-    \item Revamped a responsive \textbf{website, dashboard, sign-in portal} for the College Representative Program, a student social leadership initiative which was launched across India with a reach of \textbf{200k+} college students
-    
-    
-    \item Developed a full stack website \textbf{CoordieGram}, registration portal for sophomores to enroll as coordinators, having front-end of \textbf{Instagram UI} and a back-end in \textbf{JavaScript, PHP} and \textbf{mySQL} server side scripting
-    
-    \item Targeting \textbf{5000+} underprivileged students of \textbf{50+} schools under \textbf{Career Counseling Campaigns} (50\% y-o-y growth) and \textbf{200k+} students of all BMC schools through \textbf{Video Tele-conferencing Session} 
-    
-\end{itemize}
+            
+        \item Developed Annual Social Fest 2021 website, using \textbf{3D rendered} gamified mascot, \textbf{live quizzes}, leaderboard 
+        
+        \item Integrated online marketplace with \textbf{virtual currency} for an immersive user experience $|$ \textbf{20k+} people reached
+        
+        \item Revamped a responsive website with \textbf{sign-in portal}, dashboard for the CR Program with \textbf{2.8k+} active users
+        
+        \item Executed a \textbf{stigma eradication} campaign in collaboration with \textbf{UNICEF} India with a reach of \textbf{1mil+} people
+        
+        % \item Developed a full stack website \textbf{CoordieGram}, registration portal for sophomores to enroll as coordinators, having front-end of \textbf{Instagram UI} and a back-end in \textbf{JavaScript, PHP} and \textbf{MySQL} server side scripting
+        
+        % \item Targeting \textbf{5000+} underprivileged students of \textbf{50+} schools under \textbf{Career Counseling Campaigns} (50\% y-o-y growth) and \textbf{200k+} students of all BMC schools through \textbf{Video Tele-conferencing Session} 
+        
+    \end{itemize}
 	
-	\vspace{0pt}
+    \vspace{-2pt}
 	\hspace{-17 pt}
-	\textbf{Web Secretary, Metallurgy And Material Sciences Department}  \hfill{\sl \small (July'19 - June'20)}  \\
+	\textbf{\large Web Secretary, MEMS Department, IIT Bombay}  \hfill{\sl \small (July'19 - June'20)}  \\
 \textit{Part of \textbf{15 member} team responsible for  catering to the needs \textbf{800+} students and \textbf{30+} professors }\\
-\vspace{-19pt}
+\vspace{-17pt}
 	\begin{itemize}[itemsep = -1.5 mm, leftmargin=*]
         \item Planned and executed events catering to \textbf{200+} students of department with net budget of \textbf{INR 1.3 Million}
         
-        \item Maintained and revamped Department website using \textbf{CSS, JavaScript} and \textbf{Bootstrap},  \textbf{Druple} frameworks
-        
-        % \item Engaged in planning and execution of events like Frshmen Orientation, Annual Department Trip, Interactive Sessions and Kurta Day, each having a participation of \textbf{200+} students and net budget of \textbf{INR 1.3 Million} 
-        
+        \item Maintained and revamped Department website using HTML, \textbf{JavaScript}, \textbf{Bootstrap}, and \textbf{Druple} frameworks
         
 	\end{itemize}
-	%--------------------
+ 
+\vspace{-21pt}
+\section*{\color{blue}Technical Skills\xfilll[0pt]{0.5pt}}
+	\vspace{-9pt}
+	\begin{itemize}[itemsep = -1.65mm, leftmargin=*]
+    \item Programming Languages: \textbf{C/C++}, \textbf{React}, Java, \textbf{SQL}, \textbf{Python}, PHP, R, \textbf{Node.js}, \textbf{Express} and \LaTeX
+    \item Softwares \& Libraries: \textbf{TensorFlow}, Scikit-Learn, Tableau, Visual Studio, \textbf{Android Studio}, AutoCAD, MS-Excel
+	\end{itemize}
 
-%     \hspace{-18pt}
-% 	\textbf{Events Co-Ordinator $|$ TechFest, IIT Bombay}  \hfill{\sl \small (July 2019 - Present)}  \\
-%     \textit{Asia’s largest Science and Technology Festival — Budget: \textbf{31 million} — Footfall: \textbf{175,000}}\\
-% 	\begin{itemize}[itemsep = -1.5 mm, leftmargin=*]
-% 	\vspace{-19pt}
-% 	        \item Conducted \textbf{'iUnderstand'}: Financial Literacy for Youth', an initiative to promote Financial Literacy and Investor Education through a network of \textbf{100+} colleges, targeting \textbf{10000+} college students 
-% 		    \item Strategizing, ideating and executing India's Largest College eSports Tournament by conducting online and live competitions $|$ Participants: \textbf{2000+} $|$ Teams: \textbf{512+} 
-% 	        \end{itemize}
-
-\vspace{-17pt}
+\vspace{-21pt}
 		\section*{\color{blue}Extracurricular Activities\xfilll[0pt]{0.5pt}}
 \vspace{-10pt}
-    \begin{itemize}[itemsep = -0.5mm,leftmargin=*]
+    \begin{itemize}[itemsep = -1.30mm,leftmargin=*]
     
     \item Trekked \textbf{80+} km and attained a height of \textbf{9800+ft} in Himalayas, under guidance of Government of H.P
     
-    \item \textbf{Gold medal} in High Jump, Javelin Throw at State Level Sports Meet, Kendriya Vidyalaya Sangathan\hfill{\sl\small(2016)}
+    \item Attended Annual Training Camp \textbf{ATC}, National Cadet Corp (NCC), 4-AFS, Rajasthan as a Contingent Leader
     
     \item \textbf{Silver medal} in High Jump, \textbf{100m} hurdle race at the annual Athletics General Championship-'20 \hfill{\sl\small(2020)}
         
-    \item Certified \textbf{Yellow Belt} (Grade: 8th Kup) in \textbf{Martial Arts} by Sailum Martial Arts Academy\hfill{\sl\small{(2014)}}       
-    %  \item \textbf{Silver Medal} in Long Jump, Triple Jump at State Level Sports Meet, Kendriya Vidyalaya Sangathan\hfill{\sl\small(2016)}
+    \item \textbf{Gold medal} in High Jump, Javelin Throw at State Level Sports Meet, Kendriya Vidyalaya Sangathan\hfill{\sl\small(2016)}
+    
+    \item Certified \textbf{Yellow Belt} (Grade: 8th Kup) in \textbf{Martial Arts} by Sailum Martial Arts Academy\hfill{\sl\small{(2014)}}
                             
-    \item Attended Annual Training Camp \textbf{ATC}, National Cadet Corp (NCC), 4-AFS, Rajasthan as a Contingent Leader
     
-    
-
-    
-    % \item Successfully completed a 1-year professional training in \textbf{Athletics} under \textbf{National Sports Organisation}
-    
-    % \item Coordinated with \textbf{Robin Hood Army (RHA)} to feed the homeless and conducted science activities to promote education in slums and orphanages
-    
-    % \item Volunteered in World's largest Beach Cleanup at Versova Beach in Mumbai launched by Afroz Shah\hfill{\sl\small(2019)}
  \end{itemize}
 \end{document}
 
